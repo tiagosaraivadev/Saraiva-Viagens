@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(44,68,77);
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+
+header {
+
+    
+    height: 100px;
+    background-color: #FFB800;
+
+}
+
+.nav-header {
+
+    justify-content: left;
+    margin: auto 30px;
+    height: 100%;
+    display: flex;
+    
+}
+
+
+#img-header {
+
+    width: 130px;
+    height: 90px;  
+    
+    
+
+}
+
+#p-header {
+    
+    float:right;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    font-weight: bold;
+
+}
+
+
+nav img {
+
+    width: 130px;
+    height: 90px;  
+    
+    
+
+}
+
+
+ul {
+    
+    margin-left: 30%;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    
+    
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bold;
+    margin: 0 30px;
+
+}
+
+a {
+
+    
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+a {
+
+    
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+#contato-selected {
+
+    color: white;
+}
+
+a:hover {
+    color: white;
+    transition: all .4s;
+}
+
+.main {
+    
+}
+
+footer {
+
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding: 5px;
+    background-color: #FFB800;
+    
+}
+
+.footer-p {
+
+    text-align: center;
+
+}

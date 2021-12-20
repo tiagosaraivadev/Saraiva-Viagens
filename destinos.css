@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+
+    background: rgb(51,77,87);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+
+header {
+
+    
+    height: 100px;
+    background-color: #FFB800;
+
+}
+
+.nav-header {
+
+    justify-content: left;
+    margin: auto 30px;
+    height: 100%;
+    display: flex;
+    
+}
+
+
+#img-header {
+
+    width: 130px;
+    height: 90px;  
+    
+    
+
+}
+
+#p-header {
+    
+    float:right;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    font-weight: bold;
+
+}
+
+
+nav img {
+
+    width: 130px;
+    height: 90px;  
+    
+    
+
+}
+
+
+ul {
+    
+    margin-left: 30%;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    
+    
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bold;
+    margin: 0 30px;
+
+}
+
+a {
+
+    
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+#destinos-selected {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    transition: all .4s;
+}
+
+
+
+
+
+.titulo h1 {
+
+
+
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 0;
+    margin: 2;
+}
+
+.titulo p {
+
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.conteudo {
+
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: justify;
+    width: 700px;
+    height: 700px;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 2vw;
+    
+    
+  
+
+    
+
+}
+
+.conteudo img {
+    
+    box-shadow: 10px 10px 10px #FFB800;
+    border-radius: 20px;
+   width: 100%;
+   object-fit: cover;
+ 
+
+}
+
+
+.conteudo p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+
+
+}
+
+#ultimo-btn {
+
+    color: white;
+    margin: 15px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: rgb(4, 201, 4);
+    cursor: pointer;
+
+
+}
+
+
+
+#botao {
+
+    color: white;
+    margin: 30px 30px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: rgb(4, 201, 4);
+    cursor: pointer;
+    
+    
+}
+
+#botao:hover {
+    
+    background-color: #FFB800;
+    transition: .2s;
+
+}
+
