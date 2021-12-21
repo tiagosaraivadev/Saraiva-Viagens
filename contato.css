@@ -111,8 +111,56 @@ a:hover {
     transition: all .4s;
 }
 
-.main {
+main {
+    text-align: center;
+
+}
+
+.main h1 {
+
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: white;
     
+}
+
+.main p {
+
+    text-align: center;
+    color: white;
+    margin: auto;
+    max-width: 650px;
+    padding-top: 50px;
+}
+
+button {
+
+    text-align: center;
+    color: white;
+    margin: 50px 500px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: rgb(211,106,98);
+    cursor: pointer;
+}
+
+button:hover {
+
+    
+    color: white;
+    background-color: #FFB800;
+    transition: all .4s;
+}
+
+
+
+.img {
+    text-align: center;
+    bottom: 0;
+    padding-top: 25px;
 }
 
 footer {

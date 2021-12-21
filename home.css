@@ -136,8 +136,10 @@ footer {
 }
 
 .div-home h1 {
-
-    color: black;
+    
+    border-radius: 30px;
+    background-color: rgba(44, 68, 77, 0.911);
+    color: white;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
     padding: 17px;

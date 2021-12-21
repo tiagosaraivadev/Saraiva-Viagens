@@ -175,10 +175,16 @@ a:hover {
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    background: rgb(4, 201, 4);
+    background: rgb(211,106,98);
     cursor: pointer;
 
 
+}
+
+#ultimo-btn:hover {
+
+    background-color: rgb(50, 226, 50);
+    transition: .2s;
 }
 
 
@@ -191,7 +197,7 @@ a:hover {
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    background: rgb(4, 201, 4);
+    background: rgb(211,106,98);
     cursor: pointer;
     
     
@@ -199,7 +205,7 @@ a:hover {
 
 #botao:hover {
     
-    background-color: #FFB800;
+    background-color: rgb(50, 226, 50);
     transition: .2s;
 
 }
